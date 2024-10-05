@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #F5F5F5;
+    --secondary-color: #c7c3c3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: var(--primary-color);
+    background: radial-gradient(circle at -4% -12.9%, rgb(74, 98, 110) 0.3%, rgb(30, 33, 48) 90.2%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 16px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.profile {
+    width: 160px;
+    height: 160px;
+    border-radius: 999px;
+    border: 2px dotted #FFF;
+}
+
+.title {
+    font-size: 24px;
+    margin: 24px 0 16px;
+    text-align: center;
+}
+
+.description {
+    font-size: 14px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.links {
+    width: 100%;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.link {
+    font-size: 14px;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid var(--secondary-color);
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    background-color: #ffffff2c;
+}
